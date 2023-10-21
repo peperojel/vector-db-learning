@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vector-db-learning"
+version = "0.1.0"
+description = ""
+authors = ["Ppe <peperojel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.26.1"
+chromadb = "^0.4.14"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
